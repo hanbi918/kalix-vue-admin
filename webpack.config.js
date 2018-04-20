@@ -6,7 +6,7 @@ function resolve(dir) {
 }
 
 module.exports = {
-  entry: './src/lib/config.js',
+  entry: './src/lib/index.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',

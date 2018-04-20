@@ -1,7 +1,7 @@
 {
   "name": "kalix-vue-admin",
   "description": "A Vue component to kalix-admin",
-  "version": "0.0.18",
+  "version": "0.1.20",
   "author": "juezhan <11991762@qq.com>",
   "private": false,
   "license": "MIT",
@@ -33,5 +33,7 @@
     "vue-template-compiler": "^2.5.16",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
-  }
+  },
+  "_from": "kalix-vue-admin@0.0.20",
+  "_resolved": "http://registry.npm.taobao.org/kalix-vue-admin/download/kalix-vue-admin-0.0.20.tgz"
 }

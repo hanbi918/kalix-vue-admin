@@ -9,12 +9,12 @@
 
 <script type="text/ecmascript-6">
   import FormModel from './model'
-  import {usersURL} from '../config.toml'
-  import Dialog from '@/components/custom/baseDialog.vue'
+  import {userURL} from 'kalix-vue-common/src/config/global.toml'
 
   export default {
+    name: 'AdminUserResetpwd',
     data() {
-      var validatePassword = (rule, value, callback) => {
+      let validatePassword = (rule, value, callback) => {
         if (value === '') {
           callback(new Error('请输入密码'))
         } else {
@@ -24,7 +24,7 @@
           callback()
         }
       }
-      var validateConfirmPassword = (rule, value, callback) => {
+      let validateConfirmPassword = (rule, value, callback) => {
         if (value === '') {
           callback(new Error('请再次输入密码'))
         } else if (value !== this.formModel.password) {
@@ -42,9 +42,6 @@
         targetURL: usersURL,
         labelWidth: '140px'
       }
-    },
-    components: {
-      KalixDialog: Dialog
     },
     methods: {}
   }

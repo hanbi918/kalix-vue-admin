@@ -60,7 +60,7 @@
   export default {
     name: 'AdminUserAdd',
     data() {
-      var validatePassword = (rule, value, callback) => {
+      let validatePassword = (rule, value, callback) => {
         if (value === '') {
           callback(new Error('请输入密码'))
         } else {
@@ -70,7 +70,7 @@
           callback()
         }
       }
-      var validateConfirmPassword = (rule, value, callback) => {
+      let validateConfirmPassword = (rule, value, callback) => {
         if (value === '') {
           callback(new Error('请再次输入密码'))
         } else if (value !== this.formModel.password) {

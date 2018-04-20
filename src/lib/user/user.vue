@@ -23,14 +23,11 @@
 </template>
 <script type="text/ecmascript-6">
   import {usersURL, userBtnPermissionPrefix, UserComponent} from '../config.toml'
-  import {userBtnList} from './config'
-  // import {registerComponent} from '../../api/register'
+  import {userBtnList} from './config.js'
   import {ON_REFRESH_DATA} from 'kalix-vue-common/src/components/common/event.toml'
-  // 注册全局组件
-  // registerComponent(UserComponent)
 
   export default {
-    name: 'adminuser',
+    name: 'kalix-admin-user',
     props: {
       bizKey: {
         type: String,

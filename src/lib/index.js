@@ -1,31 +1,15 @@
-import User from './user/user.vue'
-import userSearch from './user/userSearch.vue'
-import userAdd from './user/userAdd.vue'
-import userEdit from './user/userEdit.vue'
-import userView from './user/userView.vue'
+import User from './user'
+import Role from './role'
+import WorkGroup from './workgroup'
+import DataAuth from './dataauth'
 
-// import Role from './role/index.vue'
-
-const components = [
-  User,
-  userSearch,
-  userAdd,
-  userEdit,
-  userView
-]
-
-const admin = {
+const components = {
   install(Vue) {
-    // Vue.component(User.name, User)
-    // Vue.component(userSearch.name, userSearch)
-    components.map((component) => {
-      Vue.component(component.name, component)
-    })
+    User.install(Vue)
+    Role.install(Vue)
+    WorkGroup.install(Vue)
+    DataAuth.install(Vue)
   }
 }
 
-if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(admin)
-}
-
-export default admin
+export default components
