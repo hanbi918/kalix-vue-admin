@@ -17,7 +17,7 @@
   import {ON_REFRESH_DATA} from 'kalix-vue-common/src/components/common/event.toml'
 
   export default {
-    name: 'application',
+    name: 'kalix-admin-application',
     data() {
       return {
         btnList: applicationBtnList,

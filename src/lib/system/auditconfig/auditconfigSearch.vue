@@ -4,7 +4,7 @@
 开发日期：2018年2月6日
 -->
 <template lang="pug">
-  Kalix-Search(:searchFields="searchFields" title="审计配置查询" bizKey="auditconfig")
+  kalix-search(:searchFields="searchFields" title="审计配置查询" bizKey="auditconfig")
 </template>
 
 <script type="text/ecmascript-6">

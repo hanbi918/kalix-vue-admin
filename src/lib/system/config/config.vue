@@ -45,9 +45,6 @@
         ]
       }
     },
-    components: {
-      BaseTable
-    },
     created() {
     },
     mounted() {

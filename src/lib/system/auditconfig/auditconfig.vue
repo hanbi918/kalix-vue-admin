@@ -5,7 +5,7 @@
 -->
 <template lang="pug">
   keep-alive
-    base-table(bizKey="auditconfig" title='审计配置列表' ref="kalixTable"
+    kalix-table(bizKey="auditconfig" title='审计配置列表' ref="kalixTable"
     v-bind:tableFields="tableFields"
     v-bind:targetURL="auditConfigURL"
     v-bind:bizDialog="auditConfigDialog"

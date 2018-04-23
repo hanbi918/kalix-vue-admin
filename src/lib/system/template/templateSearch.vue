@@ -1,5 +1,5 @@
 <template lang="pug">
-  Kalix-Search(:searchFields="searchFields" title="模板查询" bizKey="template")
+  kalix-search(:searchFields="searchFields" title="模板查询" bizKey="template")
 </template>
 
 <script type="text/ecmascript-6">

@@ -20,7 +20,7 @@
   import FormModel from './model'
 
   export default {
-    name: 'applicationView',
+    name: 'AdminApplicationView',
     data() {
       return {
         formModel: Object.assign({}, FormModel),

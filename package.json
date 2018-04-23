@@ -1,7 +1,7 @@
 {
   "name": "kalix-vue-admin",
   "description": "A Vue component to kalix-admin",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "author": "juezhan <11991762@qq.com>",
   "private": false,
   "license": "MIT",

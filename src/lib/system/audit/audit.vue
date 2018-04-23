@@ -21,11 +21,9 @@
 <script type="text/ecmascript-6">
   import {auditURL} from '../../config.toml'
   import {auditBtnList} from '../audit/config'
-  // 注册全局组件
-  registerComponent(AuditComponent)
 
   export default {
-    name: 'kalix-admin-aduit',
+    name: 'kalix-admin-audit',
     data() {
       return {
         targetURL: auditURL,
@@ -49,9 +47,6 @@
         ],
         deleteAllUrl: `${auditURL}/remove`
       }
-    },
-    components: {
-      BaseTable
     }
   }
 </script>

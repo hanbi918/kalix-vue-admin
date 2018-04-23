@@ -243,7 +243,7 @@
 </script>
 
 <style scoped lang="stylus" type="text/stylus">
-  @import "~@/assets/stylus/color.styl"
+  @import "../../../assets/stylus/color.styl"
   .kalix-article
     position relative
     height 100%

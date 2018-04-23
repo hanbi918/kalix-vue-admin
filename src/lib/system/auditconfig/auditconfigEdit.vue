@@ -21,7 +21,6 @@
 
 <script type="text/ecmascript-6">
   import FormModel from './model'
-  import Dialog from '@/components/custom/baseDialog.vue'
   import {auditConfigURL} from '../../config.toml'
   export default {
     name:'AuditConfigEdit',
@@ -44,9 +43,6 @@
           label: '否'
         }]
       }
-    },
-    components: {
-      KalixDialog: Dialog
     },
     methods: {
       init(dialogOption) {

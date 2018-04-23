@@ -1,11 +1,11 @@
 <template lang="pug">
-  Kalix-Search(:searchFields="searchFields" title="应用查询")
+  kalix-search(:searchFields="searchFields" title="应用查询")
 </template>
 
 <script type="text/ecmascript-6">
 
   export default {
-    name: 'applicationSearch',
+    name: 'AdminApplicationSearch',
     data() {
       return {
         searchFields: [

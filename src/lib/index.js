@@ -11,13 +11,13 @@ import OrgUser from './organize/orguser'
 import Duty from './organize/duty'
 
 // 系统管理
-// import AdminDict from './system/admindict'
-// import Application from './system/application'
-// import Audit from './system/audit'
-// import AuditConfig from './system/auditconfig'
-// import Config from './system/config'
-// import Function from './system/function'
-// import Template from './system/template'
+import AdminDict from './system/admindict'
+import Application from './system/application'
+import Audit from './system/audit'
+import AuditConfig from './system/auditconfig'
+import Config from './system/config'
+import Function from './system/function'
+import Template from './system/template'
 
 const components = {
   install(Vue) {
@@ -31,13 +31,13 @@ const components = {
     OrgUser.install(Vue)
     Duty.install(Vue)
 
-    // AdminDict.install(Vue)
-    // Application.install(Vue)
-    // Audit.install(Vue)
-    // AuditConfig.install(Vue)
-    // Config.install(Vue)
-    // Function.install(Vue)
-    // Template.install(Vue)
+    AdminDict.install(Vue)
+    Application.install(Vue)
+    Audit.install(Vue)
+    AuditConfig.install(Vue)
+    Config.install(Vue)
+    Function.install(Vue)
+    Template.install(Vue)
   }
 }
 

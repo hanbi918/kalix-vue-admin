@@ -7,7 +7,6 @@
         el-input(v-model="formModel.name")
 </template>
 <script type="text/ecmascript-6">
-  import BaseSearch from '../../../components/custom/baseSearch.vue'
   import {isEmptyObject} from 'common/util'
 
   export default {
@@ -33,9 +32,6 @@
     },
     created() {
       this.tempFormModel = JSON.stringify(Object.assign({}, this.formModel))
-    },
-    components: {
-      KailxSearch: BaseSearch
     },
     methods: {
       resetFromModel() {

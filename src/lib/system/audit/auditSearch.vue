@@ -4,7 +4,7 @@
 开发日期：2018年1月31日
 -->
 <template lang="pug">
-  Kalix-Search(:searchFields="searchFields" title="审计查询" bizKey="audit")
+  kalix-search(:searchFields="searchFields" title="审计查询" bizKey="audit")
 </template>
 
 <script type="text/ecmascript-6">
@@ -36,9 +36,6 @@
         //   beginDate_end: []
         // }
       }
-    },
-    components: {
-      KalixSearch: BaseSearch
     },
     methods: {}
   }
