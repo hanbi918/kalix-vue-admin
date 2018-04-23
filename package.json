@@ -1,7 +1,7 @@
 {
   "name": "kalix-vue-admin",
   "description": "A Vue component to kalix-admin",
-  "version": "0.1.20",
+  "version": "0.2.8",
   "author": "juezhan <11991762@qq.com>",
   "private": false,
   "license": "MIT",
@@ -12,6 +12,7 @@
     "pub": "npm run build && npm publish"
   },
   "dependencies": {
+    "kalix-vue-biz": "^0.0.2",
     "kalix-vue-common": "^0.0.6",
     "vue": "^2.5.16",
     "vue-pay-keyboard": "^1.1.5"
@@ -21,10 +22,13 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "cross-env": "^5.1.4",
+    "css": "^2.2.1",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
     "pug": "^2.0.3",
     "pug-loader": "^2.4.0",
+    "style": "^0.0.3",
+    "style-loader": "^0.21.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "toml": "^2.3.3",
